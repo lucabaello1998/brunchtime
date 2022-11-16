@@ -403,6 +403,7 @@ section{
     font-style: italic;
     filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
     text-decoration: underline;
+    margin-right: 90px;
 }
 
 .celiaco-item p{

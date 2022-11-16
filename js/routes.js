@@ -417,9 +417,9 @@ const PATHS = {
                             <img src="./assets/image/arrozsintacc.jpg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
-                            <h4 class="item-text-title">Brunch Especial nº1</h4>
+                            <h4 class="item-text-title">Arroz con curry</h4>
                             <p class="item-text-description">
-                                arroz con curry y verduras salteadas.
+                                arroz con curry y verduras salteadas. (Elegir la bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -433,7 +433,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Hamburguesa</h4>
                             <p class="item-text-description">
-                                hamburguesa con pan sin gluten, acompañado de lechuga, tomate y pepinos.
+                                hamburguesa con pan sin gluten, acompañado de lechuga, tomate y pepinos. (Elegir la bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -447,7 +447,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Pizza sin tacc</h4>
                             <p class="item-text-description">
-                                pizza sin tacc con salsa de tomate, queso y aceitunas.
+                                pizza sin tacc con salsa de tomate, queso y aceitunas. (Elegir bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -461,7 +461,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">salteado de verduras</h4>
                             <p class="item-text-description">
-                                salteado de verduras con salsa de soja, acompañado de arroz, lino y chia.
+                                salteado de verduras con salsa de soja, acompañado de arroz, lino y chia. (Elegir bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -475,7 +475,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Brownie</h4>
                             <p class="item-text-description">
-                                brownie sin tacc de chocolate.
+                                brownie sin tacc de chocolate. (Elegir bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -489,7 +489,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Medialunas de jamon y queso sin tacc</h4>
                             <p class="item-text-description">
-                                medialunas de jamon y queso sin tacc.
+                                medialunas de jamon y queso sin tacc. (Elegir bebida)
                             </p>
                         </div>
                         <div class="celiaco-item-price">
