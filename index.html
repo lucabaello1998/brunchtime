@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Routing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/12469c1105.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!-- Botones de navegación -->
+    <header>
+        <div class="container header">
+                <div class="container-logo">
+                    <div id="logo">
+                        <img src='./assets/image/logo.png' alt="logo">
+                        <h6>redes sociales</h6>
+                        <div class="redes">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-menu">
+                    <button class="btn-menu" id="Home" onclick="ROUTER.load('home')">Carta </button>
+                    <button class="btn-menu" id="About" onclick="ROUTER.load('brunch')">Brunch</button>
+                    <button class="btn-menu" id="Contact" onclick="ROUTER.load('bebidas')">Bebidas</button>
+                    <button class="btn-menu" id="Contact" onclick="ROUTER.load('infantil')">Infantil</button>
+                    <button class="btn-menu" id="Contact" onclick="ROUTER.load('contact')">Celiacos</button>
+                </div>
+            </div>    
+        </header>
+
+        <section class="celiacos">
+            <div class="container">
+                <div class="container-celiacos-column">
+                    <div class="container-celiacos-text">
+                        <h2>Menú Celiacos</h2>
+                        <p>En nuestro restaurante contamos con un menú especial para celiacos, donde podrás disfrutar de nuestros platos sin gluten. </p>
+                    </div>
+                    <div class="container-celiacos-menu">
+                        <div class="celiaco-item">
+                            <div class="celiaco-item-img">
+                                <img src="./assets/image/arrozsintacc.jpg" alt="brunch">
+                            </div>
+                            <div class="celiaco-item-text">
+                                <h4 class="item-text-title">Brunch Especial nº1</h4>
+                                <p class="item-text-description">
+                                    arrozz con curry y verduras salteadas.
+                                </p>
+                            </div>
+                            <div class="celiaco-item-price">
+                                <p>$1200</p>
+                            </div>
+                        </div>
+                        <div class="celiaco-item">
+                            <div class="celiaco-item-img">
+                                <img src="./assets/image/hamburguesasintacc.jpg" alt="brunch">
+                            </div>
+                            <div class="celiaco-item-text">
+                                <h4 class="item-text-title">Hamburguesa</h4>
+                                <p class="item-text-description">
+                                    hamburguesa con pan sin gluten, acompañado de lechuga, tomate y pepinos.
+                                </p>
+                            </div>
+                            <div class="celiaco-item-price">
+                                <p>$1000</p>
+                            </div>
+                        </div>
+                        <div class="celiaco-item">
+                            <div class="celiaco-item-img">
+                                <img src="./assets/image/pizzasintacc.jpg" alt="brunch">
+                            </div>
+                            <div class="celiaco-item-text">
+                                <h4 class="item-text-title">Pizza sin tacc</h4>
+                                <p class="item-text-description">
+                                    pizza sin tacc con salsa de tomate, queso y aceitunas.
+                                </p>
+                            </div>
+                            <div class="celiaco-item-price">
+                                <p>$1100</p>
+                            </div>
+                        </div>
+                        <div class="celiaco-item">
+                            <div class="celiaco-item-img">
+                                <img src="./assets/image/Woksintacc.jpg" alt="brunch">
+                            </div>
+                            <div class="celiaco-item-text">
+                                <h4 class="item-text-title">salteado de verduras</h4>
+                                <p class="item-text-description">
+                                    salteado de verduras con salsa de soja, acompañado de arroz, lino y chia.
+                                </p>
+                            </div>
+                            <div class="celiaco-item-price">
+                                <p>$900</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    
+
+    
+        <!-- Aquí es donde se insertará el contenido según la página en la que nos encontremos -->
+    <div id="content"></div>
+
+        <!-- En estos archivos estará la mágica para la navegación -->
+    <script src="./js/router.js"></script>
+    <script src="./js/routes.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

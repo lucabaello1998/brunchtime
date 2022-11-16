@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,300;1,400&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,300;1,400&display=swap');
+/* resets */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./assets/image/te.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#logo h6{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.redes a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes a:hover{
+    transform: scale(1.2);
+}
+/* header */
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-logo{
+    background: rgba(252,220,223,0.5);
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    width: 250px;
+    height: 170px;
+
+}
+
+.container-menu{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.menu-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn-menu{
+    margin: 0 10px;
+    margin-top: 5px;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background: rgba(252,220,223,0.5);
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(252,220,223,1);
+    color: rgb(0, 0, 0);
+}
+
+/* carta */
+
+section{
+    margin-top: 10px;
+}
+
+.carta-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+.carta-column-text-h1{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.carta-column-text-horario{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.carta-column-text p{
+    line-height: 40px;
+}
+
+.carta-column-formaspago-img img{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* menu-brunch */
+
+.brunch-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.brunch-column h1{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.brunch-column p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.brunch-item-img img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.brunch-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(184,191,223,0.5);
+    margin-top:10px;
+}
+
+.brunch-item-text{
+    display:flex;
+    flex-direction: column;
+}
+
+.brunch-item-text h4{
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    text-decoration: underline;
+    margin-right: 90px;
+}
+
+.brunch-item-text p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    margin-top: 60px;
+}
+
+.vegan{
+    background-color: rgba(191,223,184,0.5);
+}
+
+.brunch-item-price{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* bebidas */
+
+.bebidas-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.bebidas-column h1{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.bebidas-column p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.bebidas-column-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: stretch;
+}
+
+.bebidas-column-row-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(220,241,230,0.5)
+}
+
+.bebidas-column-row-item h3{
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    text-decoration: underline;
+}
+
+.item-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.item-price{
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+/* infantil */
+
+.infantil-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.infantil-column h2{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.infantil-column p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.infantil-column-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: stretch;
+}
+
+.infantil-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(220,241,230,0.5)
+}
+
+.infantil-item-img img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.infantil-item h4{
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    text-decoration: underline;
+}
+
+.vegan {
+    background-color: rgba(191,223,184,0.5);
+}
+
+/* celiaco */
+
+.container-celiacos-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.container-celiacos-column h2{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+}
+
+.container-celiacos-column p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.9));
+}
+
+.container-celiacos-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: stretch;
+}
+
+.celiaco-item-img img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.celiaco-item{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(220,241,230,0.5);
+    justify-content: space-between;
+}
+
+.celiaco-item h4{
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    font-style: italic;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    text-decoration: underline;
+}
+
+.celiaco-item p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    filter:drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.5));
+    margin-top: 40px;
+}
+
+.celiaco-item-price{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 33px;
+}
+
+@media screen and (max-width: 700px) {
+    .celiaco-item {
+        flex-direction: column;
+    }
+}
