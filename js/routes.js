@@ -2,31 +2,31 @@ const PATHS = {
     home: {
         path: '/',
         template: `<section class="carta">
-        <div class="container">
-            <div class="carta-column">
-                <div class="carta-column-text">
-                    <h1 class="carta-column-text-h1">Donde la gastronomía y la hospitalidad, se vuelven uno.</h1>
-                    <div class="carta-column-text-horario">    
-                    <h4 class="carta-column-text-h1">horarios de atencion</h4>
-                        <p>Lunes a Viernes de 12:00 a 15:00 y de 19:00 a 23:00</p>
-                        <p>Domingos de 12:00 a 15:00 y de 19:00 a 23:00</p>
-                        <p>Sábados de 12:00 a 15:00 y de 19:00 a 23:00</p>
-                        <p>direccion: Av. Corrientes 1234, CABA</p>
-                    </div>
-                </div>
-                <div class="carta-column-formaspago">
-                    <h4 class="carta-column-text-h1">Formas de pago</h4>
-                    <div class="carta-column-formaspago-img">
-                        <img src="./assets/image/visa.png" alt="visa">
-                        <img src="./assets/image/mastercard.png" alt="mastercard">
-                        <img src="./assets/image/mercadopago.webp" alt="americanexpress">
-                        <img src="./assets/image/efectivo.png" alt="mercadopago">
-                    </div>
-                </div> 
-                </div>
-            </div>
-        </div>
-    </section>`,
+                        <div class="container">
+                            <div class="carta-column">
+                                <div class="carta-column-text">
+                                    <h1 class="carta-column-text-h1">Donde la gastronomía y la hospitalidad, se vuelven uno.</h1>
+                                    <div class="carta-column-text-horario">    
+                                    <h4 class="carta-column-text-h1">horarios de atencion</h4>
+                                        <p>Lunes a Viernes de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                                        <p>Domingos de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                                        <p>Sábados de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                                        <p>direccion: Av. Corrientes 1234, CABA</p>
+                                    </div>
+                                </div>
+                                <div class="carta-column-formaspago">
+                                    <h4 class="carta-column-text-h1">Formas de pago</h4>
+                                    <div class="carta-column-formaspago-img">
+                                        <img src="./assets/image/visa.png" alt="visa">
+                                        <img src="./assets/image/mastercard.png" alt="mastercard">
+                                        <img src="./assets/image/mercadopago.webp" alt="americanexpress">
+                                        <img src="./assets/image/efectivo.png" alt="mercadopago">
+                                    </div>
+                                </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </section>`,
     },
     brunch: {
         path: '/brunch',
@@ -419,7 +419,7 @@ const PATHS = {
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Brunch Especial nº1</h4>
                             <p class="item-text-description">
-                                arrozz con curry y verduras salteadas.
+                                arroz con curry y verduras salteadas.
                             </p>
                         </div>
                         <div class="celiaco-item-price">
@@ -501,7 +501,7 @@ const PATHS = {
                             <img src="./assets/image/cookies.jpg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
-                            <h4 class="item-text-title"></h4>
+                            <h4 class="item-text-title">Cookies de chip de chocolates</h4>
                             <p class="item-text-description">
                                 cookies sin tacc y libre de harinas, con chips de chocolate.
                             </p>
