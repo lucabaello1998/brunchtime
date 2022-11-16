@@ -417,7 +417,7 @@ section{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     margin-top: 33px;
-    padding: 0 10px
+    padding: 10px 10px
 }
 
 @media screen and (max-width: 700px) {
@@ -431,6 +431,9 @@ section{
         margin: 10px;
     }
     .brunch-item-text h4{
+        margin-right: 0;
+    }
+    .celiaco-item h4{
         margin-right: 0;
     }
 }
