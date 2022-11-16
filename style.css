@@ -257,7 +257,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 25%;
+    width: 200px;
     text-align: center;
     margin: 10px;
     background-color: rgba(220,241,230,0.5)
@@ -416,10 +416,20 @@ section{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     margin-top: 33px;
+    padding: 0 10px
 }
 
 @media screen and (max-width: 700px) {
     .celiaco-item {
         flex-direction: column;
+    }
+    .brunch-item{
+        flex-direction: column;
+    }
+    .brunch-item-img{
+        margin: 10px;
+    }
+    .brunch-item-text h4{
+        margin-right: 0;
     }
 }

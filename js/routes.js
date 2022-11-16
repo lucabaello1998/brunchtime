@@ -402,8 +402,116 @@ const PATHS = {
         </div>
     </section>`,
     },
-    contact: {
-        path: '/contact',
-        template: `<h1>📱 Contacto</h1>`,
+    celiacos: {
+        path: '/celiacos',
+        template: `<section class="celiacos">
+        <div class="container">
+            <div class="container-celiacos-column">
+                <div class="container-celiacos-text">
+                    <h2>Menú Celiacos</h2>
+                    <p>En nuestro restaurante contamos con un menú especial para celiacos, donde podrás disfrutar de nuestros platos sin gluten. </p>
+                </div>
+                <div class="container-celiacos-menu">
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/arrozsintacc.jpg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">Brunch Especial nº1</h4>
+                            <p class="item-text-description">
+                                arrozz con curry y verduras salteadas.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$1200</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/hamburguesasintacc.jpg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">Hamburguesa</h4>
+                            <p class="item-text-description">
+                                hamburguesa con pan sin gluten, acompañado de lechuga, tomate y pepinos.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$1000</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/pizzasintacc.jpg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">Pizza sin tacc</h4>
+                            <p class="item-text-description">
+                                pizza sin tacc con salsa de tomate, queso y aceitunas.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$1100</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/Woksintacc.jpg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">salteado de verduras</h4>
+                            <p class="item-text-description">
+                                salteado de verduras con salsa de soja, acompañado de arroz, lino y chia.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$900</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/browniesintacc.webp" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">Brownie</h4>
+                            <p class="item-text-description">
+                                brownie sin tacc de chocolate.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$600</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/medialunasintacc.jpeg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title">Medialunas de jamon y queso sin tacc</h4>
+                            <p class="item-text-description">
+                                medialunas de jamon y queso sin tacc.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$900</p>
+                        </div>
+                    </div>
+                    <div class="celiaco-item">
+                        <div class="celiaco-item-img">
+                            <img src="./assets/image/cookies.jpg" alt="brunch">
+                        </div>
+                        <div class="celiaco-item-text">
+                            <h4 class="item-text-title"></h4>
+                            <p class="item-text-description">
+                                cookies sin tacc y libre de harinas, con chips de chocolate.
+                            </p>
+                        </div>
+                        <div class="celiaco-item-price">
+                            <p>$100 c/u</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>`,
     }
 }

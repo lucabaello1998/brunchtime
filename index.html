@@ -27,83 +27,44 @@
                     <button class="btn-menu" id="About" onclick="ROUTER.load('brunch')">Brunch</button>
                     <button class="btn-menu" id="Contact" onclick="ROUTER.load('bebidas')">Bebidas</button>
                     <button class="btn-menu" id="Contact" onclick="ROUTER.load('infantil')">Infantil</button>
-                    <button class="btn-menu" id="Contact" onclick="ROUTER.load('contact')">Celiacos</button>
+                    <button class="btn-menu" id="Contact" onclick="ROUTER.load('celiacos')">Celiacos</button>
                 </div>
             </div>    
         </header>
 
-        <section class="celiacos">
-            <div class="container">
-                <div class="container-celiacos-column">
-                    <div class="container-celiacos-text">
-                        <h2>Menú Celiacos</h2>
-                        <p>En nuestro restaurante contamos con un menú especial para celiacos, donde podrás disfrutar de nuestros platos sin gluten. </p>
-                    </div>
-                    <div class="container-celiacos-menu">
-                        <div class="celiaco-item">
-                            <div class="celiaco-item-img">
-                                <img src="./assets/image/arrozsintacc.jpg" alt="brunch">
-                            </div>
-                            <div class="celiaco-item-text">
-                                <h4 class="item-text-title">Brunch Especial nº1</h4>
-                                <p class="item-text-description">
-                                    arrozz con curry y verduras salteadas.
-                                </p>
-                            </div>
-                            <div class="celiaco-item-price">
-                                <p>$1200</p>
-                            </div>
-                        </div>
-                        <div class="celiaco-item">
-                            <div class="celiaco-item-img">
-                                <img src="./assets/image/hamburguesasintacc.jpg" alt="brunch">
-                            </div>
-                            <div class="celiaco-item-text">
-                                <h4 class="item-text-title">Hamburguesa</h4>
-                                <p class="item-text-description">
-                                    hamburguesa con pan sin gluten, acompañado de lechuga, tomate y pepinos.
-                                </p>
-                            </div>
-                            <div class="celiaco-item-price">
-                                <p>$1000</p>
-                            </div>
-                        </div>
-                        <div class="celiaco-item">
-                            <div class="celiaco-item-img">
-                                <img src="./assets/image/pizzasintacc.jpg" alt="brunch">
-                            </div>
-                            <div class="celiaco-item-text">
-                                <h4 class="item-text-title">Pizza sin tacc</h4>
-                                <p class="item-text-description">
-                                    pizza sin tacc con salsa de tomate, queso y aceitunas.
-                                </p>
-                            </div>
-                            <div class="celiaco-item-price">
-                                <p>$1100</p>
-                            </div>
-                        </div>
-                        <div class="celiaco-item">
-                            <div class="celiaco-item-img">
-                                <img src="./assets/image/Woksintacc.jpg" alt="brunch">
-                            </div>
-                            <div class="celiaco-item-text">
-                                <h4 class="item-text-title">salteado de verduras</h4>
-                                <p class="item-text-description">
-                                    salteado de verduras con salsa de soja, acompañado de arroz, lino y chia.
-                                </p>
-                            </div>
-                            <div class="celiaco-item-price">
-                                <p>$900</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
+        
     
 
     
         <!-- Aquí es donde se insertará el contenido según la página en la que nos encontremos -->
-    <div id="content"></div>
+    <div id="content">
+        <section class="carta">
+            <div class="container">
+                <div class="carta-column">
+                    <div class="carta-column-text">
+                        <h1 class="carta-column-text-h1">Donde la gastronomía y la hospitalidad, se vuelven uno.</h1>
+                        <div class="carta-column-text-horario">    
+                        <h4 class="carta-column-text-h1">horarios de atencion</h4>
+                            <p>Lunes a Viernes de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                            <p>Domingos de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                            <p>Sábados de 12:00 a 15:00 y de 19:00 a 23:00</p>
+                            <p>direccion: Av. Corrientes 1234, CABA</p>
+                        </div>
+                    </div>
+                    <div class="carta-column-formaspago">
+                        <h4 class="carta-column-text-h1">Formas de pago</h4>
+                        <div class="carta-column-formaspago-img">
+                            <img src="./assets/image/visa.png" alt="visa">
+                            <img src="./assets/image/mastercard.png" alt="mastercard">
+                            <img src="./assets/image/mercadopago.webp" alt="americanexpress">
+                            <img src="./assets/image/efectivo.png" alt="mercadopago">
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
         <!-- En estos archivos estará la mágica para la navegación -->
     <script src="./js/router.js"></script>
