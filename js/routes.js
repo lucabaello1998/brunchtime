@@ -35,7 +35,7 @@ const PATHS = {
             <div class="brunch-column">
                 <div class="brunch-text">
                     <h1>Brunch</h1>
-                    <p>Disfruta de nuestros brunchs especiales de 16:00 a 17:00</p>
+                    <p>Disfruta de nuestros brunchs especiales de 16:00 a 19:00</p>
                 </div>
                 <div class="brunch-item">
                     <div class="brunch-item-img">
@@ -69,7 +69,7 @@ const PATHS = {
                 <div class="brunch-column-row">
                     <div class="brunch-item">
                         <div class="brunch-item-img">
-                            <img src="./assets/image/menuv2.1/carrol-cake.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/carrotcake.jpeg" alt="brunch">
                         </div>
                         <div class="brunch-item-text">
                             <h4 class="item-text-title">Carrot Cake</h4>
@@ -111,7 +111,7 @@ const PATHS = {
                     </div>
                     <div class="brunch-item">
                         <div class="brunch-item-img">
-                        <img src="./assets/image/menuv2.1/cheesecake.webp" alt="brunch">
+                        <img src="./assets/image/menuv2.1/chesse.jpeg" alt="brunch">
                     </div>
                     <div class="brunch-item-text">
                         <h4 class="item-text-title">Porcion de Chessecake Frutilla</h4>
@@ -125,7 +125,7 @@ const PATHS = {
                 </div>
                 <div class="brunch-item vegan">
                     <div class="brunch-item-img">
-                    <img src="./assets/image/menuv2.1/tartafrutilla.jpg" alt="brunch">
+                    <img src="./assets/image/menuv2.1/tarta.jpeg" alt="brunch">
                 </div>
                 <div class="brunch-item-text">
                     <h4 class="item-text-title">Porcion de Tarta de Frutilla (opcion vegana)</h4>
@@ -139,7 +139,7 @@ const PATHS = {
             </div>
             <div class="brunch-item vegan">
                 <div class="brunch-item-img">
-                <img src="./assets/image/menuv2.1/cheesecake.webp" alt="brunch">
+                <img src="./assets/image/menuv2.1/roll.jpeg" alt="brunch">
             </div>
             <div class="brunch-item-text">
                 <h4 class="item-text-title">Roll de canela (opcion vegana)</h4>
@@ -196,7 +196,7 @@ const PATHS = {
                 </div>
                 <div class="brunch-item vegan">
                     <div class="brunch-item-img">
-                        <img src="./assets/image/pizzasintacc.jpg" alt="brunch">
+                        <img src="./assets/image/menuv2.1/pizza.jpeg" alt="brunch">
                     </div>
                     <div class="brunch-item-text">
                         <h4 class="item-text-title">Pizza individual (opcion vegana)</h4>
@@ -293,7 +293,7 @@ const PATHS = {
                 <div class="infantil-column-row">
                     <div class="infantil-item">
                         <div class="infantil-item-img">
-                            <img src="./assets/image/cookies.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/cookie.jpeg" alt="brunch">
                         </div>
                         <div class="infantil-item-text">
                             <h4 class="item-text-title">Cookies</h4>
@@ -321,7 +321,7 @@ const PATHS = {
                     </div>
                     <div class="infantil-item vegan">
                         <div class="infantil-item-img">
-                            <img src="./assets/image/menuv2.1/chocolatada.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/chocolatada.jpeg" alt="brunch">
                         </div>
                         <div class="infantil-item-text">
                             <h4 class="item-text-title">Chocolatada</h4>
@@ -351,7 +351,7 @@ const PATHS = {
                     <h1>Desayuno</h1>
                     <div class="celiaco-item">
                         <div class="celiaco-item-img">
-                            <img src="./assets/image/menuv2.1/lemonpie.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/lemonpie.jpeg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Lemon Pie (individual)</h4>
@@ -365,7 +365,7 @@ const PATHS = {
                     </div>
                     <div class="celiaco-item">
                         <div class="celiaco-item-img">
-                            <img src="./assets/image/menuv2.1/tortachoco.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/tortachoco.jpeg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Porcion de Torta de Chocolate</h4>
@@ -379,7 +379,7 @@ const PATHS = {
                     </div>
                     <div class="celiaco-item">
                         <div class="celiaco-item-img">
-                            <img src="./assets/image/croissant.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/croassaint.jpeg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">croissant</h4>
@@ -394,7 +394,7 @@ const PATHS = {
                     <h1>Almuerzo</h1>
                     <div class="celiaco-item">
                         <div class="celiaco-item-img">
-                            <img src="./assets/image/menuv2.1/chippa.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/chipa.jpeg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Chipa de Queso</h4>
@@ -408,7 +408,7 @@ const PATHS = {
                     </div>
                     <div class="celiaco-item">
                         <div class="celiaco-item-img">
-                            <img src="./assets/image/menuv2.1/tostado.jpg" alt="brunch">
+                            <img src="./assets/image/menuv2.1/tostado.jpeg" alt="brunch">
                         </div>
                         <div class="celiaco-item-text">
                             <h4 class="item-text-title">Tostado</h4>
