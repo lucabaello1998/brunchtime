@@ -16,4 +16,11 @@ class Router {
         $CONTAINER.innerHTML = template;
         window.history.pushState({}, "done", path);
     }
+    refresh(page = 'home') {
+        const { paths } = this;
+        const { path, template } = paths[page] || paths.error;
+        const $CONTAINER = document.querySelector("#content");
+        $CONTAINER.innerHTML = template;
+        window.history.replaceState({}, "done", path);
+    }
 }
