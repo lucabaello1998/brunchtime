@@ -21,6 +21,7 @@ const PATHS = {
                         <img src="./assets/image/mastercard.png" alt="mastercard">
                         <img src="./assets/image/mercadopago.webp" alt="americanexpress">
                         <img src="./assets/image/efectivo.png" alt="mercadopago">
+                        <img src="./assets/image/qr.jpeg" alt="qr">
                     </div>
                 </div> 
                 </div>
